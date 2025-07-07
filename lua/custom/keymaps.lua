@@ -1,5 +1,5 @@
 -- [[ Basic Keymaps ]]
-vim.keymap.set('n', '<leader>d', '<cmd>lua require("dap").continue()<CR>', { desc = '[Debug] Start/Continue })
+vim.keymap.set('n', '<leader>d', '<cmd>lua require("dap").continue()<CR>', { desc = '[Debug] Start/Continue' })
 vim.keymap.set('n', '<leader>f', '<cmd>tab Git<CR>', { desc = '[F]ugitive' })
 vim.keymap.set('n', '<leader>w', '<cmd>write<CR>', { desc = '[W]rite' })
 vim.keymap.set('n', '<leader>q', '<cmd>quit<CR>', { desc = '[Q]uit' })
